@@ -14,6 +14,7 @@
 		F397C4A520BC7EDC00AE9DED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F397C4A320BC7EDC00AE9DED /* LaunchScreen.storyboard */; };
 		F397C4B020BC7EDC00AE9DED /* rocketappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F397C4AF20BC7EDC00AE9DED /* rocketappTests.swift */; };
 		F397C4BB20BC7EDD00AE9DED /* rocketappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F397C4BA20BC7EDD00AE9DED /* rocketappUITests.swift */; };
+		F397C4C920BC7FA200AE9DED /* hustle-on.wav in Resources */ = {isa = PBXBuildFile; fileRef = F397C4C820BC7FA200AE9DED /* hustle-on.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F397C4B620BC7EDD00AE9DED /* rocketappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = rocketappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F397C4BA20BC7EDD00AE9DED /* rocketappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rocketappUITests.swift; sourceTree = "<group>"; };
 		F397C4BC20BC7EDD00AE9DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F397C4C820BC7FA200AE9DED /* hustle-on.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hustle-on.wav"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		F397C49920BC7EDB00AE9DED /* rocketapp */ = {
 			isa = PBXGroup;
 			children = (
+				F397C4C820BC7FA200AE9DED /* hustle-on.wav */,
 				F397C49A20BC7EDB00AE9DED /* AppDelegate.swift */,
 				F397C49C20BC7EDB00AE9DED /* ViewController.swift */,
 				F397C49E20BC7EDB00AE9DED /* Main.storyboard */,
@@ -229,6 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F397C4C920BC7FA200AE9DED /* hustle-on.wav in Resources */,
 				F397C4A520BC7EDC00AE9DED /* LaunchScreen.storyboard in Resources */,
 				F397C4A220BC7EDC00AE9DED /* Assets.xcassets in Resources */,
 				F397C4A020BC7EDB00AE9DED /* Main.storyboard in Resources */,
