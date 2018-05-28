@@ -37,6 +37,15 @@ class ViewController: UIViewController {
         cloudHolder.isHidden = false
         darkBlueBG.isHidden = true
         powerButton.isHidden = true
+        
+        player.play()
+        
+        UIView.animate(withDuration: 2.3, animations: {
+            self.rocket.frame = CGRect(x: 0, y: 20, width: 375, height: 402)
+        }) {(finished) in
+            self.hustleLabel.isHidden = false
+            self.onLabel.isHidden = false
+        }
     }
 
 }
