@@ -21,6 +21,12 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    @IBAction func powerButtonPressed(_ sender: Any) {
+        cloudHolder.isHidden = false
+        darkBlueBG.isHidden = true
+        powerButton.isHidden = true
+    }
 
 }
 
